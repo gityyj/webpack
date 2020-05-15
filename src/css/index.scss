@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    .box {
+        width: 200px;
+        height: 200px;
+        //  默认情况 webpack 无法处理css 文件中的 url 地址， 不管是图片还是字体库，只要是url地址， 都处理不了
+        background: url('../images/u=1311392388\,1324290206&fm=26&gp=0.jpg');
+        background-size: contain;
+    }
+
+    .box2 {
+        width: 200px;
+        height: 200px;
+        //  默认情况 webpack 无法处理css 文件中的 url 地址， 不管是图片还是字体库，只要是url地址， 都处理不了
+        background: url('../images2/u=1311392388\,1324290206&fm=26&gp=0.jpg');
+        background-size: contain;
+    }
+}
